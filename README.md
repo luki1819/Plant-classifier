@@ -18,3 +18,11 @@ na podstawie zdjęcia, zbudowana w oparciu o konwolucyjną sieć neuronową (CNN
 ## Obsługiwane rośliny
 
 Apple, Blueberry, Cherry, Grape, Pepper, Raspberry, Soybean, Strawberry, Tomato
+
+## Technologie
+
+- **Deep Learning:** TensorFlow/Keras (CNN)
+- **Backend:** Python
+- **Frontend:** Streamlit
+
+
