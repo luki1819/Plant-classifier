@@ -25,4 +25,9 @@ Apple, Blueberry, Cherry, Grape, Pepper, Raspberry, Soybean, Strawberry, Tomato
 - **Backend:** Python
 - **Frontend:** Streamlit
 
+## Screenshot
+
+![Przykład klasyfikacji](example_classification.png)
+
+---
 
