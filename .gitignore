@@ -1,0 +1,21 @@
+# Dane treningowe i testowe (dataset - za duże dla GitHuba)
+train/
+test/
+train_health_Apple/
+test_health_Apple/
+Temp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Niepotrzebne pliki
+sprawozdanie.pdf
+prezentacja.pdf
+video_processing.py
