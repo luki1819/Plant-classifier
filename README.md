@@ -43,3 +43,22 @@ Model został wytrenowany na zbiorze danych obejmującym następujące rośliny:
 
 ---
 
+## 🛠️ Planowane usprawnienia predykcji
+Aby zwiększyć skuteczność modelu i zminimalizować błędy, planowane są następujące działania techniczne:
+
+**Rozszerzenie zbioru danych treningowych:**
+- Zaawansowana augmentacja danych: transformacje geometryczne (rotacja, odbicia lustrzane) oraz fotometryczne (zmiana jasności, kontrastu, nasycenia)
+- Zróżnicowanie warunków oświetleniowych: zdjęcia o niskiej ekspozycji oraz przy świetle o różnej temperaturze barwowej, co zapobiega overfittingowi
+
+**Implementacja Uczenia Aktywnego (Active Learning):**
+- Mechanizm Human-in-the-loop: w przypadku niskiej pewności modelu (low confidence score) użytkownik wskazuje poprawną etykietę (Ground Truth)
+- Zebrane dane posłużą do dotrenowania modelu w kolejnych iteracjach (Incremental Learning)
+
+## 🏥 Diagnostyka i Zalecenia (System Ekspercki)
+Aplikacja nie tylko rozpoznaje chorobę, ale również pełni rolę asystenta ogrodnika. Po wykryciu problemu system wyświetla dedykowaną sekcję z poradami:
+
+### 🔍 Przyczyny wystąpienia chorób:
+* **Czynniki środowiskowe:** Nadmierna wilgotność, brak cyrkulacji powietrza, zbyt wysokie zagęszczenie roślin.
+* **Patogeny:** Informacje o grzybach, bakteriach lub wirusach odpowiedzialnych za dany stan (np. *Podosphaera leucotricha* w przypadku mączniaka jabłoni).
+```
+
